@@ -1,4 +1,4 @@
-package main 
+package main
 
 import "fmt"
 
@@ -12,11 +12,11 @@ func AlphaPosition(c rune) int {
 	return -1
 }
 
-func main(){
-    fmt.Println(AlphaPosition('a'))
-    fmt.Println(AlphaPosition('z'))
-    fmt.Println(AlphaPosition('B'))
-    fmt.Println(AlphaPosition('Z'))
-    fmt.Println(AlphaPosition('0'))
-    fmt.Println(AlphaPosition(' '))
+func main() {
+	fmt.Println(AlphaPosition('a'))
+	fmt.Println(AlphaPosition('z'))
+	fmt.Println(AlphaPosition('B'))
+	fmt.Println(AlphaPosition('Z'))
+	fmt.Println(AlphaPosition('0'))
+	fmt.Println(AlphaPosition(' '))
 }
