@@ -13,5 +13,5 @@ func alphaCount(str string) int {
 }
 
 func main() {
-	fmt.Print(alphaCount("hello2    "))
+	fmt.Println(alphaCount("hello2    "))
 }

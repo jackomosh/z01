@@ -11,11 +11,12 @@ func Firstword(s string) string {
 			break
 		}
 	}
-	return answer
+	return answer + "\n"
 }
 
 func main() {
-	fmt.Println(Firstword("hello how are you"))
-	fmt.Println(Firstword("hello....    "))
-	fmt.Println(Firstword("	hello....   there "))
+	fmt.Print(Firstword("hello how are you"))
+	fmt.Print(Firstword("hello....    "))
+	fmt.Print(Firstword("	hello....   there "))
+	fmt.Print(Firstword(""))
 }
