@@ -11,10 +11,10 @@ func main() {
 }
 
 func Zipstring (s string) string {
-	r := ""
-	c := 0
+	var r string
+	var c int
 
-	for i := 0; i < len(s); i += c {
+	for i := 0; i < len(s); i+=c {
 		c = 0
 		for j := i; j < len(s); j++ {
 			if s[j] != s[i] {
